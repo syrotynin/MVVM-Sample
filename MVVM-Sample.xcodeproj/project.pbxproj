@@ -12,12 +12,12 @@
 		E81ACDAC1F025C8600220595 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81ACDAB1F025C8600220595 /* SettingsViewController.swift */; };
 		E81ACDAE1F025DF400220595 /* SearchSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81ACDAD1F025DF400220595 /* SearchSettingsViewModel.swift */; };
 		E86773321F015AC800775533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86773301F015AC800775533 /* Main.storyboard */; };
-		E86773341F015AC800775533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86773331F015AC800775533 /* Assets.xcassets */; };
 		E86773371F015AC800775533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86773351F015AC800775533 /* LaunchScreen.storyboard */; };
 		E86773401F015EFE00775533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E867733F1F015EFE00775533 /* AppDelegate.swift */; };
 		E86773431F015F0600775533 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86773421F015F0600775533 /* SearchViewController.swift */; };
 		E86773481F01606300775533 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86773471F01606300775533 /* SearchViewModel.swift */; };
 		E867734A1F0170BB00775533 /* SearchItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86773491F0170BB00775533 /* SearchItemTableViewCell.swift */; };
+		E8A6ACEC1F029ED400FDD4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A6ACEB1F029ED400FDD4C9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +29,13 @@
 		E81ACDAD1F025DF400220595 /* SearchSettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSettingsViewModel.swift; sourceTree = "<group>"; };
 		E86773291F015AC800775533 /* MVVM-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86773311F015AC800775533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E86773331F015AC800775533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		E86773361F015AC800775533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E86773381F015AC800775533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		E867733F1F015EFE00775533 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E86773421F015F0600775533 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E86773471F01606300775533 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		E86773491F0170BB00775533 /* SearchItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchItemTableViewCell.swift; sourceTree = "<group>"; };
+		E8A6ACEB1F029ED400FDD4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +90,9 @@
 			children = (
 				E867733E1F015EFE00775533 /* Application */,
 				E86773451F015F3100775533 /* Model */,
+				E8A6ACEA1F029ED400FDD4C9 /* Resources */,
 				E86773411F015F0600775533 /* View */,
 				E86773441F015F2C00775533 /* ViewModel */,
-				E86773461F015F5F00775533 /* Resources */,
 			);
 			path = "MVVM-Sample";
 			sourceTree = "<group>";
@@ -135,10 +135,10 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E86773461F015F5F00775533 /* Resources */ = {
+		E8A6ACEA1F029ED400FDD4C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E86773331F015AC800775533 /* Assets.xcassets */,
+				E8A6ACEB1F029ED400FDD4C9 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E86773371F015AC800775533 /* LaunchScreen.storyboard in Resources */,
-				E86773341F015AC800775533 /* Assets.xcassets in Resources */,
+				E8A6ACEC1F029ED400FDD4C9 /* Assets.xcassets in Resources */,
 				E86773321F015AC800775533 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
